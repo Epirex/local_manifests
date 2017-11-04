@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" />
+  <remove-project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="Epirex/arm-eabi-4.9-uber" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Epirex/arm-linux-androideabi-4.9-uber" remote="github" revision="master" />
+  <project path="device/motorola/athene" name="Epirex/android_device_motorola_athene" remote="github" revision="ctr-7.1" />
+  <project path="kernel/motorola/msm8952" name="Epirex/kernel-msm" remote="github" revision="nougat" />
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+  <project path="vendor/motorola" name="Epirex/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/display" name="Epirex/hardware_qcom_display" remote="github" revision="n-8952" />
+  <project path="hardware/qcom/media" name="Citrus-CAF/hardware_qcom_media" remote="github" revision="n-8952" />
+  <project path="hardware/qcom/audio" name="Citrus-CAF/hardware_qcom_audio" remote="github" revision="n-8952" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="github" revision="android-7.1" />
+
+</manifest>
